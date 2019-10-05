@@ -1,4 +1,5 @@
 import React from 'react';
+import AdSense from 'react-adsense';
 
 import { statCountry, statDates } from '../statistics/helper-statistics';
 import PropTypes from 'prop-types';
@@ -40,6 +41,14 @@ const MainContent = ({ state }) => {
         </Jumbotron>
       </Row>
 
+      <AdSense.Google
+        client="ca-pub-7883363543420979"
+        slot="7806394673"
+        style={{ display: 'block' }}
+        format="auto"
+        responsive="true"
+        layoutKey="-gw-1+2a-9x+5c"
+      />
       <br />
       <Container style={{}}>
         <Row>
